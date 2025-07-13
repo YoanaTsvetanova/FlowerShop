@@ -1,4 +1,7 @@
-
+<?php
+session_start();
+$is_logged_in = isset($_SESSION['id']) && $_SESSION['id'];
+?>
 
 <!DOCTYPE html>
 <html lang="bg">
