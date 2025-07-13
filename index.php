@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 $is_logged_in = isset($_SESSION['id']) && $_SESSION['id'];
 ?>
@@ -11,5 +12,8 @@ $is_logged_in = isset($_SESSION['id']) && $_SESSION['id'];
 </head>
 <body>
 
+        <h1>Flower Shop</h1>
+     
+    </div>
 </body>
 </html>
